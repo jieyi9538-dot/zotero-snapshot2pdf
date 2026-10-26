@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Snapshot to PDF",
+  "version": "1.0.1",
+  "description": "把 Zotero 网页快照（HTML）按需转成 PDF 附件，右键菜单一键转换。",
+  "homepage_url": "https://github.com/jieyi9538-dot/zotero-snapshot2pdf",
+  "author": "jieyi9538-dot",
+  "applications": {
+    "zotero": {
+      "id": "snapshot2pdf@jieyi9538-dot.github.io",
+      "update_url": "https://raw.githubusercontent.com/jieyi9538-dot/zotero-snapshot2pdf/main/update.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
